@@ -1,0 +1,32 @@
+{
+    "publicPath": "/",
+    "extraBabelPlugins": [
+        [
+            "import", { 
+                "libraryName": "antd", 
+                "libraryDirectory": "es", 
+                "style": "css" 
+            }
+        ]
+    ],
+    "proxy": {
+        "/api": {
+            "target": "https://movie.douban.com/",
+            "changeOrigin": true,
+            "secure": false,
+            "pathRewrite": { "^/api" : "" }
+        },
+        "/2api": {
+            "target": "https://douban.fm/",
+            "changeOrigin": true,
+            "secure": false,
+            "pathRewrite": { "^/2api" : "" }
+        },
+        "/mock": {
+            "target": "",
+            "changeOrigin": true,
+            "secure": false,
+            "pathRewrite": { "^/mock" : "" }
+        }
+    }
+}

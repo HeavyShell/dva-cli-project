@@ -1,0 +1,10 @@
+{
+  "Menu.login": "Login",
+  "Menu.home": "Home",
+  "Menu.music": "Music",
+  "Menu.film": "Film",
+  "Menu.domestic": "Domestic Film",
+  "Menu.foreign": "Foreign Film",
+  "Menu.about": "About",
+  "Menu.user": "User"
+}
